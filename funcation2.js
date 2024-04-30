@@ -32,7 +32,8 @@ let num1, num2, num3
 
 console.log(vipul1)
 
-
+// prefix and postfix operatior topec learn
+// conversion tiopic revice in mdn
 
 
 

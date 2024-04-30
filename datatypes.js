@@ -1,3 +1,13 @@
+// what is data type
+// In a bases of how to save (allocate  )data (value) in a memory we are differencate two datatypes in a js or other languages1> primitive data types  2> non primitive datatypes 
+// javascript is  dynamically type language
+// primitive 
+// string number boolearn null undefined  Symbol bigint 
+
+// non primitive (reference type) 
+// Array Objects funcations 
+
+
 "use strict"; //this is used for give instruction our compiler treate our code in newer verison
 
 // alert("vipul")
@@ -18,8 +28,6 @@ BigInt=34544433333
 let tem;
 
 
-// symbol? this is used for identifacation and give unick value any companent
-
 
 console.log(typeof "vipul")
 
@@ -27,6 +35,14 @@ console.log( typeof null)
 // null type is object this is very spacil thing in js  and important
 
 
+// symbol? this is used for identifacation and give unick value any companent
+
+const id =Symbol('123')
+const anotherid = Symbol('123')
+console.log(id===anotherid)
+
+
+// all datatype return type i read in mdn webside
 
 
 
