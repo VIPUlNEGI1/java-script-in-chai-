@@ -21,7 +21,7 @@ const another_array =[1,2,3,[4,5,7],[2,4,3,2 ,[2,3,4] ]]
 const reat_antoher_array =another_array.flat(3)
 console.log(reat_antoher_array)
 
-
+// this is few valuws to convert array and do other thisngs
  console.log(Array.isArray("vipul"))
  console.log (Array.from("vipul"))
 
@@ -37,3 +37,5 @@ let num4=400
 console.log(Array.of(num1,num2,num3,num4))
 
 // this case we are convart different variable in array
+
+// is array from array  this  are reading topic

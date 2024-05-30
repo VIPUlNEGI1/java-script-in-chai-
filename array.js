@@ -41,6 +41,22 @@ const marray = myarray.join()
 console.log(marray)
 console.log(typeof marray)
 
+console.log("A",myarray)
+// it return a stction of array
+const myn2 = myarray.slice(1,3)
+console.log(myarray)
+console.log("B",myarray)
+
+const my2 =myarray.splice(1,3)
+console.log(marray)
+
+
+
+
+
+
+
+
 
 // slice,splice (ravice because iam not understand)
 // const myarra=[1.,3,8,9,4]
