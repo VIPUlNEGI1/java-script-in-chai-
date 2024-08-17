@@ -1,13 +1,13 @@
 const marvel_heros=['thor','ironman','capiten marvel']
 const dc_heros=['superman','flash','batman']
 
-// marvel_heros.push(dc_heros)
+marvel_heros.push(dc_heros)
 // console.log(marvel_heros)
 // push are use to add array to array as a datatype
 
 // but?
 // concat is used to murze 2 array and return new array
-const allheros =marvel_heros.concat(dc_heros)
+const allheros = marvel_heros.concat(dc_heros)
 console.log(allheros)
 
 

@@ -9,23 +9,24 @@ console.log(myarray[5])
 
 // array methods
 
-myarray.push(6)
+myarray.push(6,7)
+// we acn push many this in array with the help of push
 myarray.push(7)
 console.log(myarray)
-// push funcation is mostimportant funcation in array it is used to add a data ((valye)in array
+// push funcation is most important funcation in array it is used to add a data ((valye)in array
 
 myarray.pop()
 console.log(myarray)
 // pop is  used to remove the last value 
 
 
-myarray.unshift(4)
+myarray.unshift(4,2)
 console.log(myarray)
-// this unshiftis used to add element in front of the array but it is very taking compalition time because we are add some element in front the all element was shifted memory location
-
+// this unshiftis used to add element in front of the array but it was takes so many run time because it is add the value in array and then  all the array's  elements are sift in our current  location in memory that is the reasion it takes so many run time 
 myarray.shift()
 // shift is used to remove the element front of the array
 console.log(myarray)
+
 
 
 // ask the question
@@ -34,12 +35,13 @@ console.log(myarray.includes(3))
 // includes is used to the question 9 in the array or not
 console.log(myarray.indexOf(7))
 console.log(myarray.indexOf('vipul'))
-// this is help you find value position
+// this is help you find value position in a memory
 
 // how to change array into string
 const marray = myarray.join()
 console.log(marray)
 console.log(typeof marray)
+
 
 console.log("A",myarray)
 // it return a stction of array
@@ -47,7 +49,7 @@ const myn2 = myarray.slice(1,3)
 console.log(myarray)
 console.log("B",myarray)
 
-const my2 =myarray.splice(1,3)
+const my2 = myarray.splice(1,3)
 console.log(marray)
 
 

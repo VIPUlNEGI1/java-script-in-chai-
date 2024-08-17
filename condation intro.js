@@ -15,10 +15,10 @@
 // coparision operator
 // operator
 console.log(null > 0)
-console.log(null ==0)
+console.log(null == 0)
 console.log(null>=0)
 
-console.log(undefined ==0)
+console.log(undefined == 0)
 console.log(undefined > 0)
 console.log(undefined < 0)
 // thsi is unconsistant code  we are avoide to write this code
